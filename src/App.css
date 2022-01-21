@@ -1,0 +1,23 @@
+:root{
+    --headers: #B860EFff;
+    --body-text: #FBECFD;
+    --shadow: #6745D7;
+    --blue: #6745D7;
+}
+
+h1{
+    color: var(--headers);
+    margin: 0 0 0 0;
+}
+h2{
+    color: var(--headers);
+    margin: 0 0 0 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+p{
+color: var(--body-text);
+font-size: large;
+
+}

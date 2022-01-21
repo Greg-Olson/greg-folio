@@ -1,0 +1,23 @@
+.project-card{
+    height: 500px;
+    width: 500px;
+    padding: 10px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.9);
+    box-shadow: 0 6px 20px var(--shadow);
+    color: var(--body-text);
+    border-radius: 10px;
+    margin: 0;
+    display: flex;
+}
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+  }
+h2, p, body{
+    margin: 0;
+    padding: 0;
+}
