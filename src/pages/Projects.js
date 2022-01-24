@@ -12,7 +12,7 @@ class Projects extends Component {
 
     return (
       <>
-        <video autoPlay muted loop src={video} />
+        <video id= "VideoBG" autoPlay muted loop src={video} />
         <ReactCardCarousel autoplay={true} autoplay_speed={500000}>
 
           <div className='project-card'>
@@ -20,8 +20,8 @@ class Projects extends Component {
             title = 'Project Portfolio'
             description = 'A portfolio website built with node.js and React.'
             tech = "Javascript HTML CSS APIs"
-            gitLink = "https://www.google.com"
-            projectLink = "https://www.google.com"
+            gitLink = "https://github.com/Greg-Olson/greg-folio.git"
+            projectLink = "http://www.greg-olson-dev.com/"
             
             />
           
@@ -32,8 +32,6 @@ class Projects extends Component {
             title = 'Chat Application'
             description = 'A multi room chat service built with a java server on the back end.  I created the java server to handle basic HTTP get requests and to upgrade the connection to a websocket once the chatroom has been entered.  Created both a browser client and android application client.'
            tech = "Java HTTP Websockets Android"
-           gitLink = "https://www.google.com"
-           projectLink = "https://www.google.com"
             />
           </div>
           <div className='project-card'>
